@@ -36,7 +36,7 @@ scene.add(Mesh2);
 let hdri = new RGBELoader();
 
 hdri.load(
-  "./buikslotermeerplein_2k.hdr",
+  "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/small_harbour_morning_1k.hdr",
   function (hdritexture) {
     hdritexture.mapping = THREE.EquirectangularReflectionMapping;
     scene.environment = hdritexture;
